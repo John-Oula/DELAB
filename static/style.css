@@ -1,0 +1,679 @@
+
+.bg-image{
+    background-image: url("back2.jpg");
+    width: 100%;
+}
+/*BLOG*/
+body,html{
+    height: 100%;
+}
+/* The hero image */
+.hero-image {
+
+
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("blog.jpg");
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#blogbtn{
+    width: 100px;
+}
+.background{
+    background-image: url("blogback2.jpg");
+
+}
+
+.parallax{
+  background-image: url("blogback2.jpg");
+  height: 50%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxone{
+  background-image: url("blogback.jpg");
+  height: 70%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blogposts{
+    margin-left: 20px;
+}
+.row.blogposts{
+    flex: 50%;
+    width: 100%;
+     display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column.col-3.one{
+    margin-left: 190px;
+    vertical-align: middle;
+}
+.column.col-3.two{
+    margin-left: -23px;
+}
+.column.col-3.three{
+    margin-left: -23px;
+
+}
+
+
+
+/*portfolio*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+card.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+}
+/*port card*/
+.speciality{
+    margin-left:90px;
+    color: #007bff;
+
+}
+.title {
+    color: #007bff;
+    font-size: 16px;
+    margin-left: 70px;
+}
+.name{
+    color: aliceblue;
+    margin-left: 35px;
+}
+.fa{
+    margin-left: 40px;
+    margin-bottom: 25px;
+    color: azure;
+}
+.portbutton{
+    border-radius: 30px;
+    margin-left: 6px;
+}
+
+
+/*DISCOVER*/
+
+.disc{
+    padding: 5px;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ba4d33;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  margin-bottom: 15px;
+  opacity: 40%;
+
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.image {
+  display: block;
+  width: 100%;
+
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+/*HOME*/
+.justify-content-end{
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-right: 100px;
+
+}
+.navbar-brand{
+    padding-right: 25%;
+}
+.nav-item{
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.nav-link{
+    font-size: 14px;
+    color: black;
+}
+
+.hero-image-home {
+ background-image: url("homelogo.jpg");
+
+
+
+  /* Set a specific height */
+  height: 90.8%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Place text in the middle of the image */
+.hero-text-home{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+/*MAIN*/
+.parallax-home{
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("homelogo1.jpg");
+  height: 85%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image-main{
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-main {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+
+.text-center{
+    margin-top: -60px;
+
+}
+.home-border{
+    background-color: rgba(204, 207, 255, 0.57);
+    padding-left: 170px;
+
+}
+.parallax-dehome{
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("home.jpeg");
+  height: 85%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image-dehome{
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text-dehome {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+}
+/*image*/
+.float-right{
+    height: 300px;
+    width: 300px;
+}
+p{
+
+}
+
+
+.form-group{
+    alignment: center;
+}
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+.card {
+
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+    max-height: 800px;
+    margin-top: 30px;
+
+
+}
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #e9eff1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+
+
+
+.white-bg{
+    background-color: white;
+}
+
+
+
+
+
+form{
+    background-color: rgba(82, 85, 112, 0.57);
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+}
+ /* Bordered form */
+form {
+
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #6eaccc;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: rgba(225, 62, 26, 0.88);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 100px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+
+}
+
+/* Add padding to containers */
+.container {
+    padding: 8px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+#sign{
+    background-color: rgba(82, 85, 112, 0.57);
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-top: 20px;
+
+}
+#shop{
+    background-image: url("backs.jpg");
+}
+
+
+
+/*PROFILE*/
+
+.checked {
+  color: #ff4c0c;
+}
+.fa-star{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.star{
+    margin-top: 25px;
+    margin-left: 45.5%;
+    margin-right: 40%;
+}
+
+.notification {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: 87%;
+  margin-top: -34%;
+  font-size: 14px;
+
+
+
+}
+.notification:hover {
+  background: #007bff;
+}
+.notification .badge {
+
+  top: -10px;
+  right: -10px;
+  padding: 5px 7.5px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+}
+
+
+
+.notification-one {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  position: absolute;
+  display: inline-block;
+  border-radius: 2px;
+  margin-left: 77%;
+  margin-top: -34%;
+  font-size: 14px;
+
+
+
+}
+.notification-one:hover {
+  background: #007bff;
+}
+.notification-one .badge-one {
+
+  top: -10px;
+  right: -10px;
+  padding: 5px 7.5px;
+  border-radius: 100%;
+  background: red;
+  color: white;
+}
+
+
+#profile{
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#proname{
+     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    margin-top: 13px;
+
+}
+#special{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 16px;
+    margin-bottom: 0.5px;
+
+}
+#prolinks{
+    text-align: center;
+    color: #007bff;
+    font-size: 8px;
+
+}
+
+
+
+
+#nav{
+    font-size: 16px;
+}
+
+
+#portleft{
+    margin-left: 50px ;
+    width: 1000px;
+}
+
+#profile1{
+    margin-left:16px;
+    margin-top: 110px;
+}
+
+#proname1{
+     text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    margin-top: 13px;
+    margin-left: 41px;
+
+}
+#special1{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.73);
+    font-size: 16px;
+    margin-bottom: 0.5px;
+    margin-left: 71px;
+
+}
+#prolinks1{
+    text-align: left;
+    color: #007bff;
+    font-size: 6px;
+    margin-left: 77px;
+    padding-right: 700px;
+
+}
+
+
+/*port gallery*/
+#portgallery{
+    margin-left: 400px;
+
+}
