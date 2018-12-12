@@ -301,7 +301,7 @@ card.sticky-top {
 
 }
 .home-border{
-    background-color: rgba(204, 207, 255, 0.57);
+    background-color: rgba(0, 0, 0, 0.92);
     padding-left: 170px;
 
 }
@@ -313,11 +313,12 @@ card.sticky-top {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+    color: white;
 }
 .hero-image-dehome{
 
   /* Set a specific height */
-  height: 70%;
+  height: 87%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
