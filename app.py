@@ -73,6 +73,10 @@ def designs():
 def contacts():
     return render_template('BLOG.html')
 
+@app.route('/CLIENT')
+def client():
+    return render_template('CLIENT-HOME.html')
+
 
 
 if __name__ == '__main__':

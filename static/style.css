@@ -1,4 +1,6 @@
-
+label{
+    color: white;
+}
 .bg-image{
     background-image: url("back2.jpg");
     width: 100%;
@@ -264,6 +266,13 @@ card.sticky-top {
 }
 
 /*MAIN*/
+h2{
+    color: #ff4e00;
+}
+p{
+    color: white;
+}
+
 .parallax-home{
    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("homelogo1.jpg");
@@ -292,7 +301,7 @@ card.sticky-top {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #ff4e00;
 
 }
 
@@ -513,8 +522,8 @@ span.psw {
 #sign{
     background-color: rgba(82, 85, 112, 0.57);
     width: 30%;
-    margin-left: 10%;
-    margin-right: 60%;
+    margin-left: 35%;
+    margin-right: 35%;
     margin-top: 20px;
 
 }
